@@ -29,7 +29,8 @@
             android:label="@string/title_activity_create_project" />
         <activity
             android:name=".ContactActivity"
-            android:label="@string/title_activity_contact"></activity>
+            android:label="@string/title_activity_contact" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
