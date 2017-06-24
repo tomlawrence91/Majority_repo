@@ -26,7 +26,10 @@
             android:label="@string/title_activity_login" />
         <activity
             android:name=".Projectprofile"
-            android:label="@string/title_activity_projectprofile"></activity>
+            android:label="@string/title_activity_projectprofile" />
+        <activity
+            android:name=".Userprofile"
+            android:label="@string/title_activity_userprofile"></activity>
     </application>
 
 </manifest>
