@@ -25,12 +25,8 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".CreateProjectActivity"
-            android:label="@string/title_activity_create_project" />
-        <activity
-            android:name=".ContactActivity"
-            android:label="@string/title_activity_contact" />
-        <activity android:name=".SearchActivity"></activity>
+            android:name=".Projectprofile"
+            android:label="@string/title_activity_projectprofile"></activity>
     </application>
 
 </manifest>
