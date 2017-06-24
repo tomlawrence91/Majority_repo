@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class CreateProjectActivity extends AppCompatActivity {
+public class ContactActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -35,10 +35,10 @@ public class CreateProjectActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_project);
+        setContentView(R.layout.activity_contact);
 
-        mTextMessage = (TextView) findViewById(R.id.projectName);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.projectName);
+        mTextMessage = (TextView) findViewById(R.id.message);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
