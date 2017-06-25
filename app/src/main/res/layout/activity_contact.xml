@@ -27,7 +27,7 @@
         android:layout_weight="0.01"
         android:background="@android:color/background_light"
         android:ems="10"
-        android:hint="email"
+        android:hint="Email"
         android:inputType="textPersonName" />
 
     <EditText

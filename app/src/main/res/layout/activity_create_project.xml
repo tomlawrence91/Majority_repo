@@ -46,18 +46,20 @@
         android:id="@+id/projectSummary"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:elevation="22dp"
         android:gravity="top|left"
         android:hint="Summary"
         android:inputType="textMultiLine"
         android:lines="8"
         android:maxLines="10"
         android:minLines="4"
-        android:scrollbars="vertical" />
+        android:scrollbars="vertical"
+        android:singleLine="true" />
 
     <EditText
         android:id="@+id/detailSection"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="135dp"
         android:gravity="top|left"
         android:hint="Details"
         android:inputType="textMultiLine"

@@ -12,7 +12,7 @@
         android:id="@+id/textView4"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Topic Two"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="247dp" />
 
@@ -84,7 +84,7 @@
         android:id="@+id/textView3"
         android:layout_width="368dp"
         android:layout_height="0dp"
-        android:text="TextView"
+        android:text="Topic One"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="44dp" />
 
