@@ -3,6 +3,7 @@ package com.example.tom.majority;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -43,16 +44,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     // Basic Method for early functionality.
     // Method just signs in and navigates to the dashboard at signIn or the Register at register
-
-    public void signIn(View signInView) {
-
-        Log.i("Logged In", " Successful");
-    }
-
-    public void signUp(View signUpView) {
-
-        Log.i("Sign Up", " Successful");
-    }
 
 
     /**
@@ -100,9 +91,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
+
+
             @Override
             public void onClick(View view) {
-                attemptLogin();
+                Intent i=new Intent(LoginActivity.this, Userprofile.class);
+                startActivity(i);
             }
         });
 
