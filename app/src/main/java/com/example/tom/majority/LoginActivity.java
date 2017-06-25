@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(LoginActivity.this, Userprofile.class);
+                Intent i=new Intent(LoginActivity.this, DashboardActivity.class);
                 startActivity(i);
             }
         });

@@ -30,7 +30,8 @@
         <activity
             android:name=".Userprofile"
             android:label="@string/title_activity_userprofile" />
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".DashboardActivity"></activity>
     </application>
 
 </manifest>
