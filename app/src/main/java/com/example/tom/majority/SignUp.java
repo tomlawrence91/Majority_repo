@@ -105,9 +105,7 @@ public class SignUp extends AppCompatActivity {
                         else
                         // do not add topic
                         break;
-                        // I'm lactose intolerant
-                        break;
-                    // TODO: Veggie sandwich
+
                 }
 
                 Log.i("Username is", username);
