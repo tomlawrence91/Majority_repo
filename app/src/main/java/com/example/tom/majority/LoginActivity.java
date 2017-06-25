@@ -19,6 +19,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -38,6 +39,21 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+
+    // Basic Method for early functionality.
+    // Method just signs in and navigates to the dashboard at signIn or the Register at register
+
+    public void signIn(View signInView) {
+
+        Log.i("Logged In", " Successful");
+    }
+
+    public void signUp(View signUpView) {
+
+        Log.i("Sign Up", " Successful");
+    }
+
 
     /**
      * Id to identity READ_CONTACTS permission request.

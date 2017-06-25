@@ -37,9 +37,6 @@ public class CreateProjectActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_project);
 
-        mTextMessage = (TextView) findViewById(R.id.projectName);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.projectName);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
 }
