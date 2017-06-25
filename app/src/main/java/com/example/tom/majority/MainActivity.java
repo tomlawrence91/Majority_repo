@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Method that automatically loads the Login Page
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
