@@ -22,107 +22,6 @@
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="247dp" />
 
-    <LinearLayout
-        android:layout_width="370dp"
-        android:layout_height="31dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="271dp">
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.75"
-            android:text="Topic1"
-            android:textSize="10sp" />
-
-        <Space
-            android:layout_height="wrap_content"
-            android:layout_weight="0.75"
-            android:layout_width="wrap_content" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.44"
-            android:text="Topic2"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic3"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic4"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.60"
-            android:text="Topic5"
-            android:textSize="10sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="370dp"
-        android:layout_height="31dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="299dp">
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Topic6"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/Topic7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic7"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/Topic8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic8"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/Topic9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic9"
-            android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/Topic10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Topic10"
-            android:textSize="10sp" />
-    </LinearLayout>
-
     <EditText
         android:id="@+id/enterUsername"
         android:layout_width="wrap_content"
@@ -220,6 +119,99 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Avatar4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="31dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="299dp">
+
+        <CheckBox
+            android:id="@+id/topic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topic6" />
+
+        <CheckBox
+            android:id="@+id/topic7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topic7" />
+
+        <CheckBox
+            android:id="@+id/topic8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topic8" />
+
+        <CheckBox
+            android:id="@+id/topic9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topic9" />
+
+        <CheckBox
+            android:id="@+id/topic10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topic10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="31dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="264dp">
+
+        <CheckBox
+            android:id="@+id/topic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="Topic1" />
+
+        <CheckBox
+            android:id="@+id/topic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="Topic2" />
+
+        <CheckBox
+            android:id="@+id/topic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="Topic3" />
+
+        <CheckBox
+            android:id="@+id/topic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="Topic4" />
+
+        <CheckBox
+            android:id="@+id/topic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:text="Topic5" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75" />
 
     </LinearLayout>
 
