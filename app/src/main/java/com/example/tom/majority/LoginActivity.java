@@ -35,6 +35,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static android.Manifest.permission.READ_CONTACTS;
+import static com.example.tom.majority.R.id.email_sign_in_button;
+import static com.example.tom.majority.R.id.email_sign_up_button;
 
 /**
  * A login screen that offers login via email/password.
@@ -92,15 +94,23 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
 
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(LoginActivity.this, DashboardActivity.class);
-                startActivity(i);
-            }
-        });
+//        email_sign_in_button= (Button) findViewById(R.id.email_sign_in_button);
+//        email_sign_in_button.setOnClickListener (new View.OnClickListener() {
+//
+//    public  OnClickListener onClickListener = new OnClickListener() {
+//        @Override
+//        public void onClick(View view) {
+//            switch (view.getId()) {
+//                case R.id.email_sign_in_button:
+//                    Intent i = new Intent(LoginActivity.this, DashboardActivity.class);
+//                    startActivity(i);
+//                    break;
+//                case R.id.email_sign_up_button:
+//                    Intent i = new Intent(LoginActivity.this, DashboardActivity.class);
+//                    startActivity(i);
+//                    break;
+//            }
+//        }
     }
 
     private void populateAutoComplete() {
