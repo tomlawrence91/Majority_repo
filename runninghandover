@@ -1,6 +1,11 @@
 Running Handover: 
 
-TL working on Database (as suggested by RDL I am going to leave the authentication for now)
+TL working on Database (as suggested by RDL I am going to leave the authentication for now) - @Andy if you are hooking the
+pages up together - I have had to recreate the sign in page because our initial template authentication was messing up the
+firebase one - so ignore that for now. Good news is we are reading and writing. Now just to work out what that looks like. 
+
+Also - I'm going to work on updating our plan / docs with some of the stuff from our minutes here below. Conscious that we
+should update our planning docs in line with Rogee's suggestions in our meeting - constraints, niche etc. 
 AP working on
 
 Core Actions from our last meeting: 
