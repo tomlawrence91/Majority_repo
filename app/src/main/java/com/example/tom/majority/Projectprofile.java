@@ -1,5 +1,6 @@
 package com.example.tom.majority;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -17,18 +18,32 @@ public class Projectprofile extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
-                    return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
-                    return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
+                case R.id.navhome:
+                    Intent intent = new Intent(this, ActivityForItemOne.class);
+                    this.startActivity(intent);
+                    break;
+                case R.id.navcreate:
+                    Intent intent = new Intent(this, ActivityForItemOne.class);
+                    this.startActivity(intent);
+                    break;
+                case R.id.navsearch:
+                    Intent intent = new Intent(this, ActivityForItemOne.class);
+                    this.startActivity(intent);
+                    break;
+                case R.id.navprofile:
+                    Intent intent = new Intent(this, ActivityForItemOne.class);
+                    this.startActivity(intent);
+                    break;
+                case R.id.navextra:
+                    Intent intent = new Intent(this, ActivityForItemOne.class);
+                    this.startActivity(intent);
+                    break;
+                default:
+                    return super.onOptionsItemSelected(item);
             }
-            return false;
-        }
+
+            return true;
+            }
 
     };
 
@@ -36,6 +51,9 @@ public class Projectprofile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projectprofile);
+
+
+
 
     }
 

@@ -16,8 +16,6 @@
     </string>
     <string name="title_activity_projectprofile">Projectprofile</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
     <string name="title_activity_userprofile">Userprofile</string>
     <string name="title_activity_signup">Settings</string>
 
@@ -93,4 +91,12 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_signup_page">SignupPage</string>
+    <string name="title_activity_test">Sign in</string>
+
+    <!-- Strings for Navigation -->
+    <string name="navhome">Home</string>
+    <string name="navcreate">Create</string>
+    <string name="navsearch">Search</string>
+    <string name="navprofile">Profile</string>
+    <string name="navextra">Extra</string>
 </resources>

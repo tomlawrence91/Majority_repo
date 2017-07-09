@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "547995168022",
+    "firebase_url": "https://majority-ad3ad.firebaseio.com",
+    "project_id": "majority-ad3ad",
+    "storage_bucket": "majority-ad3ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547995168022:android:83b1ebe48b315f47",
+        "android_client_info": {
+          "package_name": "com.example.tom.majority"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547995168022-djo9fesmeidst3j7p5jtjsmgsjt5msor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2sEQon_p4QpEdn2PcrZmqV3hU0jWtDCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

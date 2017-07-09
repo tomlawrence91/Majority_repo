@@ -94,24 +94,16 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
 
-//        email_sign_in_button= (Button) findViewById(R.id.email_sign_in_button);
-//        email_sign_in_button.setOnClickListener (new View.OnClickListener() {
-//
-//    public  OnClickListener onClickListener = new OnClickListener() {
-//        @Override
-//        public void onClick(View view) {
-//            switch (view.getId()) {
-//                case R.id.email_sign_in_button:
-//                    Intent i = new Intent(LoginActivity.this, DashboardActivity.class);
-//                    startActivity(i);
-//                    break;
-//                case R.id.email_sign_up_button:
-//                    Intent i = new Intent(LoginActivity.this, DashboardActivity.class);
-//                    startActivity(i);
-//                    break;
-//            }
-//        }
+// Activated sign in button code as need to use it to link everything
+        Button email_sign_in_button = (Button) findViewById(R.id.email_sign_in_button);
+        email_sign_in_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, Projectprofile.class));
+            }
+        });
     }
+
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
