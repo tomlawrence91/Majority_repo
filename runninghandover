@@ -1,6 +1,6 @@
 Running Handover: 
 
-TL working on Database
+TL working on Database (as suggested by RDL I am going to leave the authentication for now)
 AP working on
 
 Core Actions from our last meeting: 
@@ -13,3 +13,15 @@ Core Actions from our last meeting:
 - Define how fat or slim the front end is
 - Be very clear about the purpose of the project from the outset
 - Reduce and provide constraints for everything 
+
+1) Give RDL access to repository on Github
+2) Keep separate documentation and have access to everything in the code repository, not just in the wiki
+3) Concentrate on 1/3 of the user stories
+4) Create and structure the database based on the requirements of the user stories
+5) Arrange a call with Dan every month
+  a) Create a back up strategy for Dan - another customer or community/company outreach
+6) Add in evaluation stages into the GANT chart
+7) Target a niche and define it in the documentation
+8) Make sure we have an electronic logbook
+9) Make sure we have agendas for all the meetings
+10) Make sure we provide minutes for all the meetings
