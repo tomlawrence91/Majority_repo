@@ -19,27 +19,25 @@ public class Projectprofile extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navhome:
-                    Intent intent = new Intent(this, ActivityForItemOne.class);
-                    this.startActivity(intent);
+                    Intent homeIntent = new Intent(Projectprofile.this,Projectprofile.class);
+                    startActivityForResult(homeIntent, 0);
                     break;
                 case R.id.navcreate:
-                    Intent intent = new Intent(this, ActivityForItemOne.class);
-                    this.startActivity(intent);
+                    Intent navIntent = new Intent(Projectprofile.this,CreateProjectActivity.class);
+                    startActivityForResult(navIntent, 0);
                     break;
                 case R.id.navsearch:
-                    Intent intent = new Intent(this, ActivityForItemOne.class);
-                    this.startActivity(intent);
+                    Intent searchIntent = new Intent(Projectprofile.this,SearchActivity.class);
+                    startActivityForResult(searchIntent, 0);
                     break;
                 case R.id.navprofile:
-                    Intent intent = new Intent(this, ActivityForItemOne.class);
-                    this.startActivity(intent);
+                    Intent profileIntent = new Intent(Projectprofile.this,Userprofile.class);
+                    startActivityForResult(profileIntent, 0);
                     break;
                 case R.id.navextra:
-                    Intent intent = new Intent(this, ActivityForItemOne.class);
-                    this.startActivity(intent);
+                    Intent contactIntent = new Intent(Projectprofile.this,ContactActivity.class);
+                    startActivityForResult(contactIntent, 0);
                     break;
-                default:
-                    return super.onOptionsItemSelected(item);
             }
 
             return true;
