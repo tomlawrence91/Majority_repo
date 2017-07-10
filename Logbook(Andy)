@@ -1,5 +1,6 @@
 Friday June 23rd
-Today marked the first day of actually beginning to plan how the application would be created. It was a full eight hour day in which the following was completed:-
+Today marked the first day of actually beginning to plan how the application would be created. It
+was a full eight hour day in which the following was completed:-
 Github account created
 User stories migrated onto Github
 Google Drive account created
@@ -7,28 +8,68 @@ Use case Scenarios completed
 Use case diagram completed
 Android library research
 
-The use case scenarios have proved interesting in two ways. Some flow of events have shown to be more difficult than previously thought for example the login section). Whereas other sections that we believed would be difficult are easier than expected (the actual voting system).
-	There are some features that were outlined in the user stories that we have not included. For example, being exposed to projects based on the user's location, commenting on projects etc.. We felt that it would be better to produce an initial MVP and then build additional features, that are not necessary to the functionality of the application, on top of it. 	Today I learnt a good deal about relationships within use case diagrams, how to use the wiki within Github and layouts within the android library. There was a good ethos while working today and a lot of work/documentation was produced. We also contacted Rogerio to ascertain what he wanted from us for our ‘Early Deliverables’ and we will await his response.
+The use case scenarios have proved interesting in two ways. Some flow of events have shown to be
+more difficult than previously thought for example the login section). Whereas other sections that
+we believed would be difficult are easier than expected (the actual voting system).
+    There are some features that were outlined in the user stories that we have not included. For
+example, being exposed to projects based on the user's location, commenting on projects etc.. We
+felt that it would be better to produce an initial MVP and then build additional features, that are
+not necessary to the functionality of the application, on top of it. 	Today I learnt a good deal
+about relationships within use case diagrams, how to use the wiki within Github and layouts within
+the android library. There was a good ethos while working today and a lot of work/documentation was
+produced. We also contacted Rogerio to ascertain what he wanted from us for our ‘Early Deliverables’
+and we will await his response.
 
 Saturday 24th June
-Today we began the day by creating site maps for both the android and web applications, creating sequence diagrams and began creating class diagrams. However, when creating the class diagrams, we quickly realised that as we both had little experience with android, we needed to better understand the android libraries. We completed a joint read through of the documentation and then spent a few hours completing an online course that I had previously purchased. We then decided it would be best to start creating the application before the modeling them with the class diagrams.
-
-	We began by creating a few activity classes and then creating the UI with android’s inbuilt XML builder. We created a splash page, a login page, a signup page, and a dashboard page. We then managed to link all the pages up by creating new intent objects when a button was pushed. As we were new to android libraries, we kept all the code we needed in a separate file, as well as any useful information.
+Today we began the day by creating site maps for both the android and web applications, creating
+sequence diagrams and began creating class diagrams. However, when creating the class diagrams, we
+quickly realised that as we both had little experience with android, we needed to better understand
+the android libraries. We completed a joint read through of the documentation and then spent a few
+hours completing an online course that I had previously purchased. We then decided it would be best
+to start creating the application before the modeling them with the class diagrams.
+    We began by creating a few activity classes and then creating the UI with android’s inbuilt XML
+builder. We created a splash page, a login page, a signup page, and a dashboard page. We then
+managed to link all the pages up by creating new intent objects when a button was pushed. As we were
+new to android libraries, we kept all the code we needed in a separate file, as well as any useful
+information.
 
 Sunday 25th June
-Today we continued by creating more activity classes and by linking them up. Tom and I came to some difficulty when loading a new activity from an activity with two buttons. We both had trouble with this and will try again tomorrow. We also looked at different android studio plugins for creating activity diagrams. We tried both codeIris and Visual Paradigm. codeIris enabled us to view all of the classes that were being used. However, it would only show us the class names and not its contents. Visual Paradigm is a software that I have used before in eclipse. However, I have not been successful in figuring out how to create the class diagram.
+Today we continued by creating more activity classes and by linking them up. Tom and I came to some
+difficulty when loading a new activity from an activity with two buttons. We both had trouble with
+this and will try again tomorrow. We also looked at different android studio plugins for creating
+activity diagrams. We tried both codeIris and Visual Paradigm. codeIris enabled us to view all of
+the classes that were being used. However, it would only show us the class names and not its
+contents. Visual Paradigm is a software that I have used before in eclipse. However, I have not been
+successful in figuring out how to create the class diagram.
 
 Monday 26th June
-Today we received feedback from Rogerio regarding what he was expecting from us for the early deliverable. From his response, I feel we have got off on the wrong foot with him. Perhaps we should have contacted him sooner. As this is the case, we began working on the report that is due Thursday. Tom had work in the morning and so I began with the market research. Once Tom had finished, he reviewed the market research and we began working on the market risk analysis and project risk analysis. Tom finished early so he began creating a gantt chart. I then added condensed use case scenarios as the requirements and specifications.
-	We worked very productively and got a lot done. Once completed, we sent a draft to Rogerio to review.
+Today we received feedback from Rogerio regarding what he was expecting from us for the early
+deliverable. From his response, I feel we have got off on the wrong foot with him. Perhaps we should
+have contacted him sooner. As this is the case, we began working on the report that is due Thursday.
+Tom had work in the morning and so I began with the market research. Once Tom had finished, he
+reviewed the market research and we began working on the market risk analysis and project risk
+analysis. Tom finished early so he began creating a gantt chart. I then added condensed use case
+scenarios as the requirements and specifications. We worked very productively and got a lot done.
+Once completed, we sent a draft to Rogerio to review.
 
 
 Wednesday 28th June
-Due to Tom’s limited availability, I have spent the day creating a new gitHub repository for the Majority web application. I also began working on adding the html for most of the web-pages we will be using. I spent some time researching which text editor would be best for us to use for the web application and from this research, I found that Atom would prove best as it has an in built integration with gitHub.
+Due to Tom’s limited availability, I have spent the day creating a new gitHub repository for the
+Majority web application. I also began working on adding the html for most of the web-pages we will
+be using. I spent some time researching which text editor would be best for us to use for the web
+application and from this research, I found that Atom would prove best as it has an in built
+integration with gitHub.
 
-On Tuesday we received feedback from the early deliverable draft that we sent Rogerio and this evening Tom and I began making the amendments to it. We swapped the condensed use cases for user stories, added an introduction and added a diagram outlining the proposed systems architecture. Today was not as productive as previous days. However, a lot was still completed.
+On Tuesday we received feedback from the early deliverable draft that we sent Rogerio and this
+evening Tom and I began making the amendments to it. We swapped the condensed use cases for user
+stories, added an introduction and added a diagram outlining the proposed systems architecture.
+Today was not as productive as previous days. However, a lot was still completed.
 
 Thursday 29th June
-Tom had limited availability today, due to personal issues. As this was the case, I spent the day better familiarising myself with the AngularJS framework that we hope to build the web application in. I found this research very interesting and am actually excited to use it, because of it’s simplicity.
-
-In the morning Tom and I reviewed the early deliverable, made a few adjustments and submitted it. We also received an email from Rogerio about meeting him on July 5, but I know this is a date Tom was unable to do.
+Tom had limited availability today, due to personal issues. As this was the case, I spent the day
+better familiarising myself with the AngularJS framework that we hope to build the web application
+in. I found this research very interesting and am actually excited to use it, because of it’s
+simplicity.
+    In the morning Tom and I reviewed the early deliverable, made a few adjustments and submitted
+it. We also received an email from Rogerio about meeting him on July 5, but I know this is a
+date Tom was unable to do.
