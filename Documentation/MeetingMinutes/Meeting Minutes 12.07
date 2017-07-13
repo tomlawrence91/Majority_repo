@@ -8,42 +8,41 @@ real definition of what Majority is and what it will do.
 
 Core actions: 
 
+TL Actions: 
+
 - 19th Send Rogerio Skype details - TL 
 - Create a directory with meetings, documents with a separate directory
-    - All sources in text files - don't worry about making it pretty.  - AP - DONE. PNGs still do be done. 
-- Write your questions for Dan - how does the company work internally? AP / TL - DONE
-    - What information do they need? 
-    - How does it work on the participatory budgeting side of things? 
-    - What type of budget? 
-    - How will the budget break down? 
-    - What problem are we trying to solve? 
 - Speak with Dan and define the capabilities - TL
-- Build these capabilities into our infrastructure design TL / AP
 - Inclue your assumptions in the plan and in your dissertation TL
+- Review and change the terminology of the project TL
+- Be proactive - ask other councils - how does it work - internally - how are budgets set? - TL to email councils 
+- We need to speak to Dan as a stakeholder that can validate the back end infrastructure of the business. TL
+- Whole architecture of the system myst be stated in a very clear way. TL
+
+AP Actions
+- All sources in text files - don't worry about making it pretty.  - AP - DONE. PNGs still do be done. 
 - Add a system to the use cases - AP
 - Use cases without any actors attributed - AP 
 - Focus on the business end of the project in the case studies AP 
 - Two user diagrams
   - restrain for the view of the user AP 
   - Restrain for the view of the admin AP 
-- Review and change the terminology of the project TL 
 - Create a use case for what your business is about AP 
+- Revisit the user stories. AP
 
+Shared Actions: 
+- Write your questions for Dan - how does the company work internally? AP / TL - DONE
+- Build these capabilities into our infrastructure design TL / AP
+- Andy & Tom to discuss how budget will be viewed and displayed to the user and how it will be implemented. AP / TL
+- Pin down the DB AP / TL to do after speaking with DAN
+- AP & TL to create a list of questions so that we an define the constraints of Majority
 
 Comments to focus on: 
 
-- Be proactive - ask other councils - how does it work - internally - how are budgets set? - TL to email councils 
-- Andy & Tom to discuss how budget will be viewed and displayed to the user and how it will be implemented. AP / TL
-- We need to speak to Dan as a stakeholder that can validate the back end infrastructure of the business. TL 
-- Pin down the DB AP / TL to do after speaking with DAN
-- Nail it to the specifics - but in order to do this you need to know the business and its requirements
-- Revisit the user stories. AP 
-- Whole architecture of the system myst be stated in a very clear way. TL 
+- Nail it to the specifics - but in order to do this you need to know the business and its requirement 
 - Admin view different from the citizen view 
- 
-Questions about Majority: 
 
-AP & TL to create a list of questions so that we an define the constraints of Majority
+Questions about Majority: 
 
 - As a citizen - I want to be able to propose a budget / project etc - Pin down your messaging and terminology
 - Budget is a projct created by the people- funded by the local governement. 
