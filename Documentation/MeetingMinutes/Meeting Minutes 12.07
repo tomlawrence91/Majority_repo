@@ -1,0 +1,66 @@
+12/07/17
+Meeting
+Participants: RDL, AP, TL
+
+Overview: Focus on the business and use the user requirements to design the backend. Clear up ideas and pin down a 
+real definition of what Majority is and what it will do. 
+
+
+Core actions: 
+
+- 19th Send Rogerio Skype details
+- Create a directory with meetings, documents with a separate directory
+    - All sources in text files - don't worry about making it pretty. 
+- Write your questions for Dan - how does the company work internally? 
+    - What information do they need? 
+    - How does it work on the participatory budgeting side of things? 
+    - What type of budget? 
+    - How will the budget break down? 
+    - What problem are we trying to solve? 
+- Speak with Dan and define the capabilities
+- Build these capabilities into our infrastructure design
+- Inclue your assumptions in the plan and in your dissertation
+- Add a system to the use cases
+- Use cases without any actors attributed
+- Focus on the business end of the project in the case studies
+- Two user diagrams
+  - restrain for the view of the user
+  - Restrain for the view of the admin 
+- Review and change the terminology of the project
+- Create a use case for what your business is about 
+
+
+Comments to focus on: 
+
+- Be proactive - ask other councils - how does it work - internally - how are budgets set? What information to they retain
+What information do they need in order to conduct their business? 
+- Andy & Tom to discuss how budget will be viewed and displayed to the user and how it will be implemented. 
+- We need to speak to Dan as a stakeholder that can validate the back end infrastructure of the business. 
+- Pin down the DB
+- Nail it to the specifics - but in order to do this you need to know the business and its requirements
+- Revisit the user stories.
+- Whole architecture of the system myst be stated in a very clear way. 
+- Admin view different from the citizen view
+- Look @ DB
+    - DB is just a component of your infrastructure
+ 
+ 
+Questions about Majority: 
+
+- As a citizen - I want to be able to propose a budget / project etc - Pin down your messaging and terminology
+- Budget is a projct created by the people- funded by the local governement. 
+- Admin view of the budget - does it control the different rubrics of the budget. 
+- How will the budget be presented? 
+    - How will it be spent? 
+    - How wil the information be stored and presented to the citizen? 
+- Clear up ideas - business definition first.
+
+
+NB: 
+
+- IN DB: Project doesn't know anything about the topic budget. 
+
+Structure of the agenda: 
+
+What have we done in the past week
+What will we do in the following week
