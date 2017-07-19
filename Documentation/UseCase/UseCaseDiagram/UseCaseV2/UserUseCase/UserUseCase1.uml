@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TMUGEGxVEee41fciDQVA0w" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TtsU0GxVEee41fciDQVA0w" name="User"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dRipoGxVEee41fciDQVA0w" name="Majority">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f51hkGxVEee41fciDQVA0w" name="View Projects"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pgTskGxVEee41fciDQVA0w" name="Create Project"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sLPBwGxVEee41fciDQVA0w" name="Vote on Project">
+      <include xmi:type="uml:Include" xmi:id="_FvuIoGxWEee41fciDQVA0w" addition="_f51hkGxVEee41fciDQVA0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_34w_4GxVEee41fciDQVA0w" name="View Overall Budget"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYe_EGxWEee41fciDQVA0w" memberEnd="_JYiCYGxWEee41fciDQVA0w _JYipcGxWEee41fciDQVA0w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYgNMGxWEee41fciDQVA0w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYg0QGxWEee41fciDQVA0w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYiCYGxWEee41fciDQVA0w" name="vote on project" type="_sLPBwGxVEee41fciDQVA0w" association="_JYe_EGxWEee41fciDQVA0w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYipcGxWEee41fciDQVA0w" name="user" type="_TtsU0GxVEee41fciDQVA0w" association="_JYe_EGxWEee41fciDQVA0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J7QU8GxWEee41fciDQVA0w" memberEnd="_J7Q8AmxWEee41fciDQVA0w _J7Q8A2xWEee41fciDQVA0w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J7Q8AGxWEee41fciDQVA0w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7Q8AWxWEee41fciDQVA0w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J7Q8AmxWEee41fciDQVA0w" name="view overall budget" type="_34w_4GxVEee41fciDQVA0w" association="_J7QU8GxWEee41fciDQVA0w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J7Q8A2xWEee41fciDQVA0w" name="user" type="_TtsU0GxVEee41fciDQVA0w" association="_J7QU8GxWEee41fciDQVA0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KeEHEGxWEee41fciDQVA0w" memberEnd="_KeEuImxWEee41fciDQVA0w _KeFVMGxWEee41fciDQVA0w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KeEuIGxWEee41fciDQVA0w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KeEuIWxWEee41fciDQVA0w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KeEuImxWEee41fciDQVA0w" name="create project" type="_pgTskGxVEee41fciDQVA0w" association="_KeEHEGxWEee41fciDQVA0w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KeFVMGxWEee41fciDQVA0w" name="user" type="_TtsU0GxVEee41fciDQVA0w" association="_KeEHEGxWEee41fciDQVA0w"/>
+  </packagedElement>
+</uml:Model>
