@@ -1,0 +1,100 @@
+User Stories V3
+
+Voter
+
+Story 1: As a user, I want to be able to propose projects of change in the local community(park renovation, more shops, disability access etc.), in relation to an available public budget. (A budget will only be drawn by admin once so many of the population have voted)
+Details: Form function which posts to a list feed of current proposed projects
+Tests:
+A mock project will be created and submitted by a user
+An admin account will view the project on their dashboard
+Once approved, another user will then view the new project on their dashboard
+
+Story 2: As a user, I want to be able to view all of the details of a project
+Details: Click on project
+Tests:
+A mock project will be created by a user and approved by admin
+A user will click to view a project and the details will be shown
+
+Story 3: As a user, I want to be able to vote for projects that have been created, so that a decision can be made on what changes should take place.
+Details: Yes or no 
+Tests:
+A user will create a project
+Another user will vote yes
+Another user will vote no
+
+Story 4: As a user, I want to be able to see how much of the overall budget is still available for that year. In the form of a graph/pie chart etc.
+Details: Activity which provides a graphical representation of the remaining overall budget.
+Test:
+Two mock projects will be created.
+Admin will then provide a budget and pass each project.
+A user will then view the output on a graph.
+
+Story 5: As a user, I want to be able to see a feed of projects that I could potentially vote on in my local area that are aligned with my topic areas of interest.
+Details: The user will be able to view a dashboard, which will include filters for service sectors and recently proposed projects.
+Tests:
+Ten test projects will be created and approved
+Three user accounts will be created and areas of interest chosen
+All users will view their dashboards
+
+Story 6: As a user, I want a government administrator to upload a budget forecast and set timelines for the completion of a proposed project. I want to be able to view this information on each project’s summary.
+Details: When phase 1 is complete, users will be able to view the project budget and timelines for completion on the application. 
+Tests:
+A user will create a project
+An administrator will approve the project and set the budget and timelines for completion
+Three user accounts will view the project details
+
+Story 7: As a user, I want a project to be put into effect if the vote approval threshold has been reached
+Details: When the vote approval threshold has been reached, administrative staff will be notified and the project votes will be counted and either approved or unapproved based on the results.
+Tests:
+A user will propose a project and it will be approved by the administrator
+All users will then vote on the project
+Once the voting period has ended, the project will be approved and admin will receive notification.
+
+
+
+Administrator
+
+Story 1: As an administrator, I want to be able to approve or decline individual projects.
+Details: The administrator will receive an email notification that a project has been put forward for approval
+Tests:
+Five user accounts will be created
+Five projects will be created and an administrator will be sent five notification emails
+The administrator will approve 2 projects and decline 3 projects
+Users will receive notifications accordingly
+Users will be able to see the 2 approved projects and project details on their newsfeed
+
+Story 2: As an administrator, I want to be able to assign smaller budgets to projects.
+Details: This will be a cms created for admin use only.
+Test:
+A user will create a project and choose one of three advisory cost options
+An admin will review the proposal, confirm or change budget details and approve
+A user will receive an email to confirm the budget has been approved
+
+Story 3: As an administrator, I want to be able to change the details of a project, if it’s specification has changed or it is no longer feasible.
+Details: The administrators will be able to edit projects. This will show on the projects page and users will receive an email to tell them that the details of the project have changed.
+Test:
+Two test projects will be created
+An administrator will terminate one project and provide an explanation for the termination via a form
+An administrator will update the details of one project via a form
+A user will check to see if the deleted project is still showing and if the edited project is showing the correct details
+
+Story 4: As an administrator, I want to be able to see the total overall budget remaining for the year.
+Details: The administrator will be able to view the remaining total budget accompanied with an overview of the smaller projects debited
+Test:
+A web dashboard will be created for administrators and will display exactly how much of the overall budget has been spent and which smaller projects it has been spent on
+The administrator will be able to review which projects have been approved, and which have been declined
+
+Story 5: As an administrator, I want to be notified once a project has reached its vote approval threshold.
+Details: Administrator will receive a notification once a project has reached the vote approval threshold
+Tests:
+A project will be created by user one and completion of phase 1 will be simulated
+Completion of phase 2 will then be simulated
+The administrator will receive a notification that the project has been successful, or unsuccessful and will then action the proposal
+
+
+Story 6: As an administrator, I want to be notified once a project has reached its vote approval threshold.
+Details: Administrator will receive a notification once a project has reached the vote approval threshold
+Tests:
+A project will be created by user one and completion of phase 1 will be simulated
+Completion of phase 2 will then be simulated
+The administrator will receive a notification that the project has been successful, or unsuccessful and will then action the proposal
