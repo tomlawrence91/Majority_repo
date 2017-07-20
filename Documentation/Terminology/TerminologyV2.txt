@@ -1,0 +1,32 @@
+﻿Terminology
+Steakholders:-
+Constituent - A member of the local public who has the power to both create and vote on projects (A Council Administrator and Councillor can be a constituent).
+Council Administrator - A member of Bracknell Council responsible for approving projects and creating budgets and timelines.
+Councillor - One of many directors of a council with the authority to sign-off initial, overall budgets.
+
+
+Overall Budget - The total amount of money available that has been signed off for use on Majority by councillors at the beginning of each year of license.
+Project Budget - The amount of money required to complete a project
+Project - A proposal for local change put forward by a constituent or Council Administrator
+Project Proposal - The act of creating a project via majority.
+
+
+Admin Approval/Disapproval - At the end of Phase 1, an admin may approve a project dependent on its viability. If approved, constituents will then be able to view and vote on the project. If not approved, the project creator who proposed the project will be notified.
+
+
+Public Approval/Disapproval - At the end of Phase 2, if the majority of constituents have voted in favour of the project, it will be carried out. If the majority of constituents do not vote in favour of it, the the project creator will be notified.
+
+
+Voting period - The period of time that a project has been given for users to vote on it.
+
+
+Vote approval threshold:
+For a project to be successful, it must meet the following criteria
+1. Have been approved by the council administrators
+2. Have been voted on by more than the council’s required percentage of users
+3. Have completed its time period for voting (eg. 2 weeks on the application)
+4. Have received more “yes” votes than “no’s”
+
+
+Areas of interest, interests(User) - Category types of local change.
+Service sectors(Admin) - Category types of local change.
