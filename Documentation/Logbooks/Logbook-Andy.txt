@@ -1,7 +1,9 @@
 ﻿Majority Logbook
 
+Majority Logbook
 
-Friday June 23rd 
+
+Friday June 23rd
 Today marked the first day of actually beginning to plan how the application would be created. It was a full eight hour day in which the following was completed:-
 * Github account created
 * User stories migrated onto Github
@@ -16,7 +18,7 @@ The use case scenarios have proved interesting in two ways. Some flow of events 
 
 
 Saturday 24th June
-Today we began the day by creating site maps for both the android and web applications, creating sequence diagrams and began creating class diagrams. However, when creating the class diagrams, we quickly realised that as we both had little experience with android, we needed to better understand the android libraries. We completed a joint read through of the documentation and then spent a few hours completing an online course that I had previously purchased. We then decided it would be best to start creating the application before the modeling them with the class diagrams. 
+Today we began the day by creating site maps for both the android and web applications, creating sequence diagrams and began creating class diagrams. However, when creating the class diagrams, we quickly realised that as we both had little experience with android, we needed to better understand the android libraries. We completed a joint read through of the documentation and then spent a few hours completing an online course that I had previously purchased. We then decided it would be best to start creating the application before the modeling them with the class diagrams.
 
 
         We began by creating a few activity classes and then creating the UI with android’s inbuilt XML builder. We created a splash page, a login page, a signup page, and a dashboard page. We then managed to link all the pages up by creating new intent objects when a button was pushed. As we were new to android libraries, we kept all the code we needed in a separate file, as well as any useful information.
@@ -27,14 +29,14 @@ Today we continued by creating more activity classes and by linking them up. Tom
 
 
 Monday 26th June
-Today we received feedback from Rogerio regarding what he was expecting from us for the early deliverable. From his response, I feel we have got off on the wrong foot with him. Perhaps we should have contacted him sooner. As this is the case, we began working on the report that is due Thursday. Tom had work in the morning and so I began with the market research. Once Tom had finished, he reviewed the market research and we began working on the market risk analysis and project risk analysis. Tom finished early so he began creating a gantt chart. I then added condensed use case scenarios as the requirements and specifications. 
+Today we received feedback from Rogerio regarding what he was expecting from us for the early deliverable. From his response, I feel we have got off on the wrong foot with him. Perhaps we should have contacted him sooner. As this is the case, we began working on the report that is due Thursday. Tom had work in the morning and so I began with the market research. Once Tom had finished, he reviewed the market research and we began working on the market risk analysis and project risk analysis. Tom finished early so he began creating a gantt chart. I then added condensed use case scenarios as the requirements and specifications.
         We worked very productively and got a lot done. Once completed, we sent a draft to Rogerio to review.
 
 
 
 
 Wednesday 28th June
-Due to Tom’s limited availability, I have spent the day creating a new gitHub repository for the Majority web application. I also began working on adding the html for most of the web-pages we will be using. I spent some time researching which text editor would be best for us to use for the web application and from this research, I found that Atom would prove best as it has an in built integration with gitHub. 
+Due to Tom’s limited availability, I have spent the day creating a new gitHub repository for the Majority web application. I also began working on adding the html for most of the web-pages we will be using. I spent some time researching which text editor would be best for us to use for the web application and from this research, I found that Atom would prove best as it has an in built integration with gitHub.
 
 
 On Tuesday we received feedback from the early deliverable draft that we sent Rogerio and this evening Tom and I began making the amendments to it. We swapped the condensed use cases for user stories, added an introduction and added a diagram outlining the proposed systems architecture. Today was not as productive as previous days. However, a lot was still completed.
@@ -45,3 +47,66 @@ Tom had limited availability today, due to personal issues. As this was the case
 
 
 In the morning Tom and I reviewed the early deliverable, made a few adjustments and submitted it. We also received an email from Rogerio about meeting him on July 5, but I know this is a date Tom was unable to do.
+
+
+Wednesday 5th July
+Today we had our first meeting with Rogerio, which went better than we first anticipated. The key areas of advice we have received have been on centering our process around the user, focusing on our USP (budgeting), understanding the different sections we are to take care of and defining which technologies we should use.
+        I think this advice will be really useful and is giving us a broader picture of the scope of the project. Until this point we have been focussing on the finer details of how we will get the application work (authentication, database, etc.). However, our main area of research was originally around budgeting.
+
+
+Friday 7th July
+Today I wanted to better understand in which way we could best create the backend of the system. We originally thought that it would be best to build the project on a django framework. Firstly because it was scalable, but also because I will be learning and using this personally at work. However, when speaking with another colleague, he suggested that it may be worth using firebase. I had seen firebase earlier in the year when initially learning android, but it seemed unnecessary at the time. Looking through it, you can easily see the benefits of using it. As this is the case I have begun researching in detail whether it would be right for our project. I will speak later with Tom about this.
+
+
+Monday 10th July
+I spent the day modelling the database. This proved difficult, as it’s not something I have really had to do this year, besides the modelling we did within the Web Systems module. One thing I am finding complex is associating one vote per person per project. I feel i might need to study this in greater detail, as it is proving more difficult than initially anticipated.
+
+
+Tuesday 11th July
+Today I spent the day finalising the model. It is still patchy, but it is better defined than previously. Tom and I also had a conversation as to how we can manage our time more efficiently. At the moment Tom is working full time, which is affecting our productivity. I have no doubt the finished product will be up to the standards we have defined. However, the process could be easier if we better manage ourselves.
+
+
+Wednesday 12th July
+We had our second meeting with Rogerio today. This proved useful as it gave us a better insight into what we need to look at to better our process. We decided today that we wanted to actually stop creating the application and start thinking what we want from the application. Or, rather what the user would want from the application.
+
+
+Thursday 13th July
+Today I travelled from Farnborough to London, so that Tom and I could work together. We spent the day revisiting our documentation and time management. We felt from the meeting with Rogerio yesterday that we need to focus more on the process and worry less about the finished product. We have put a hold on all coding and have decided to get the process locked in.
+
+
+Saturday 15th July
+Today Tom and I spent the day working from Farnborough. In the morning Tom met up with Dan to get an initial understanding of what kind of features they are hoping for and limitations we might expect. This has completely changed the way we are looking at the project. Our initial ideas of how the budgeting would take place (ie. one budget per organisation without sub-budgets for directorates.
+
+
+With the information we got from Dan, I started researching other organisations that might be interested in the project. I have completed and in depth analysis of both the Tudor Trust and the Greenham Trust. The Tudor trust is interesting. However, it looks as if it only targets individuals who are on the fringe of society and not just general change. The Greenham Trust on the other hand, is an organisation that looks as if it may be willing to partner with us.
+
+
+Monday 16th July
+With a better understanding of what Dan wants from the project I began by re-aligning all our documentation with what he is expecting from the prototype. I began by working on the use case diagrams and use case scenarios. These haven’t differed too much from what we previously expected them to be. However, there have been minor additions such as the ability to add details to projects.
+
+
+Tuesday 17th July
+Today Tom and I revisited our initial business plan that we submitted for our early deliverable. This mainly consisted of updating the user stories to reflect new features dan would like and removing all the features we had previously added in regarding separate budgets.
+Another thing we have done today is defining the terminology for our project. Since speaking with Dan, we have been able to better understand the language that is used within councils. ANother thing we have been able to understand, is how budgets are created and signed-off within the council. This is usually dependant on the size of the budget. However, for majority, we would need to speak with councillors themselves to have a budget signed off.
+
+
+Wednesday 18th July
+We had our third meeting with Rogerio, this was carried out on conference site as Tom was in Berlin. It was very helpful and has enabled us to better understand what we want from the final product. The key aspects that Rogerio wanted us to focus on were:-
+* A more organic documentation process
+* Clarifying the terminology
+* Separating the terminology from the workflow
+The meeting was much better doing it online as it has not interrupted my flow of work. Previously, Tom and I were both travelling up on a wednesday to do this, which actually lost us a day. We will speak with Rogerio to see if he would not mind continuing like this.
+
+
+Thursday 19th July
+I have been working on the documentation today, as advised by Rogerio. I began by separating the terminology and the workflow. Which was actually quite difficult as Tom and I originally thought the terminology and workflow to be the same thing. This included a better specification of the terminology that would then filter through to the rest of the documentation (user stories etc.).
+Following this, i began working on the Activity Diagrams. This is not something I have had a great deal of experience with as we only had a few sessions learning them within Rogerio’s class and I have not needed to use them outside of this. I have designed the activity diagrams so that there is one each for both phase one and phase two.
+After working on the activity diagrams I be completed the final draft of the user stories. The features involved in this didn’t actually have any change. The main changes that were involved, included changes to the use of terminology. I can now understand the use of having a natural flow when creating documentation.
+
+
+Friday 20th July
+As we have decided to divide the documentation up between us, I have decided to leave the use case scenarios and diagrams and start working on the web admin interface. Initially we wanted to just reuse an interface that someone had already created, due to the time constraints. However, due to the majority of the already, well built interfaces requiring users to include an MIT license within their product. I have decided to build one from scratch. I have loosely used one of the available interfaces as a design template, but have coded the rest of it.
+
+
+Saturday 21st July
+Today I spent more time working on the web interface. I tried contacting Tom yesterday, but he currently seems unavailable. I will try again shortly.
