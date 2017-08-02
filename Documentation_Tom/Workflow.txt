@@ -1,0 +1,9 @@
+﻿Workflow
+
+Phase 1
+1. Constituent Creates Project
+2. Council Administrator checks viability of project(budget, etc.) and, if viable, approves the project and uploads a project budget and timeline.
+
+Phase 2
+1. Following Admin approval, the project is then visible for constituents to vote on for a two week period.
+2. On completion of the two weeks, constituents will no longer be able to vote and the project will be either be carried out or dismissed. If the vote approval threshold has been met (see terminology) the project will be approved and will be shown as approved.

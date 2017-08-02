@@ -33,6 +33,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-
 //Firebase apply
 apply plugin: 'com.google.gms.google-services'

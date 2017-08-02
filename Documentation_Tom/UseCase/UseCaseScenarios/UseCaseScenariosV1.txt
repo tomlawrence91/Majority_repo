@@ -1,0 +1,224 @@
+﻿Citizen
+Sign-up
+Participating Actors: Citizen
+Normal Flow:
+1. User launches application
+2. Majority displays username and password input boxes and login and sign-up buttons.
+3. User clicks sign-up button
+4. Applications loads Create account page with inputs: Name, username(email address), password, confirm password
+5. User enters details
+6. Account is created and application loads profile setup screen(interest etc.)
+Alternative Flow Condition 1: User uses email address already in use
+1. Application shows emails address already in use and forgot password button.
+2. User clicks forgot password button and forgot password screen loads.
+Alternative Flow Condition 2: User does not use special characters on password.
+1. User enters details.
+2. special characters message shows.
+3. User enters details
+4. Account is created and application loads profile setup screen(interest etc.)
+Pre-condition: Customer has clicked on application or loaded web homepage.
+Post-condition: Customer creates account
+________________
+
+
+Login
+Participating Actors: Citizen
+Normal Flow:
+1. User launches application
+2. Majority displays username and password input boxes, forgot password link and login and sign-up buttons.
+3. User enters username and password and clicks login.
+4. Application loads user's dashboard
+Alternative Flow Condition 1: Password incorrect
+1. User launches application
+2. Majority displays username and password input boxes, forgot password link and login and sign-up buttons.
+3. User enters username and password and clicks login.
+4. Application message: password is incorrect X2 with prompt of what characters settings (e.g capital letters)
+5. User enters wrong login details for a third time, new page explains that email has sent to email address.
+6. User clicks on link in email inbox
+7. Loads new page in web browser prompting for new password and confirm new password
+8. User creates new password and dashboard loads
+Alternative Flow Condition 2: Username incorrect
+1. User launches application
+2. Majority displays username and password input boxes, forgot password link and login and sign-up buttons.
+3. User enters username and password and clicks login.
+4. Application message: username is incorrect X2 with prompt of what characters settings (e.g capital letters)
+5. User enters wrong login details for a third time, create new account page loads.
+Pre-condition: User launches application
+Post-condition: User logs into account
+________________
+
+
+Forgot password
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks forgot password link.
+2. New screen loads prompting user to enter email address.
+3. An email address with a link in is sent to user's email address.
+4. User clicks on link and page is loaded in web browser prompting user to enter new password and confirm new password.
+5. User enters new password and user's dashboard loads.
+Alternative Flow Condition 1:
+1. User enters new password and message states password must be the same and with special characters etc.
+2. User enters new password and application loads user's dashboard.
+Pre-condition: User clicks forgotten password link
+Post-condition: User creates new password
+________________
+
+
+View Profile
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks to view profile
+2. New screen loads on the application to display the user's profile
+3. User scrolls through the content on their profile
+Pre-condition: User wants to view their profile
+Post-condition: User views their profile
+________________
+
+
+Edit Profile
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks to edit profile
+2. New screen loads on the application to display the user's profile and the options to edit interests
+3. User updates their profile interests and avatar
+Pre-condition: User wants to update their profile
+Post-condition: User updates their profile
+________________
+
+
+Expand see more and menu
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks on see more for both what's new and trending and clicks on settings.
+2. Application shows more projects and setting drop down.
+Pre-condition: User is logged in
+Post-condition: User views more projects and menu options
+________________
+
+
+Vote on Project
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks on project
+2. Application shows new page with all project details, shareable link(if for gov), current votes if past post.
+3. User votes yes to project.
+4. Project is then followed in their profile section
+5. Thank you message appears and shareable link(if for gov).
+Alternative Flow Condition 1:
+1. User votes no to project.
+2. Thank you message appears.
+Alternative Flow Condition 2:
+1. User clicks on project
+2. Application shows new page with all project details and current votes if past post.
+3. User clicks back to home page.
+Pre-condition: User clicks on project
+Post-condition: User votes for project.
+________________
+
+
+Profile Setup screen
+Participating Actors: Citizen
+Normal Flow:
+1. Application loads setup screen
+2. User selects interest tag, Avatar and clicks continue
+3. Application loads dashboard
+Pre-condition: User signed up to app
+Post-condition: User selects interests and avatar
+________________
+
+
+Create project
+Participating Actors:
+Normal Flow:
+1. Application loads
+2. User clicks create
+3. User fills in form and presses submit
+4. Thank you message and advised that project is being reviewed and will receive notification once reviewed.
+Alternative Flow Condition 1: User does not enter form item
+1. Application loads
+2. User clicks create
+3. User fills in form and presses submit
+4. Red writing next to incorrect box\es (possible constraints: image size, empty field)
+Pre-condition: User clicks create
+Post-condition: User creates project
+________________
+
+
+Search
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks on search icon
+2. Application loads screen with projects listed by topic
+3. User clicks on topic and scrolls through list
+4. User clicks on project and application directs to project page
+Alternative Flow Condition 1: User clicks on project from topic page
+1. User clicks on search icon
+2. Application loads screen with projects listed by topic
+3. User clicks on project and application directs to project page
+Alternative Flow Condition 2:
+1. User clicks on search icon
+2. Application loads screen with projects listed by topic
+3. User clicks on topic and scrolls through list
+4. User reorders page using dropdown (most recent, closest, trending)
+Pre-condition: User clicks search
+Post-condition: User views all topics
+________________
+
+
+Past votes
+Participating Actors: Citizen
+Normal Flow:
+1. User clicks on profile
+2. Application loads profile and shows dashboard of past voted projects
+3. User clicks on project
+4. Application shows project, with voted disabled and visual stats.
+Pre-condition: User clicks on profile
+Post-condition: User views past voted projects
+________________
+
+
+Contact
+Participating Actors: Citizens
+Normal Flow:
+1. User clicks contact
+2. Application shows form
+3. User completes for and submits
+4. Application sends emails to customer support email address.
+Pre-condition: User upset
+Post-condition: User happy
+________________
+
+
+Admin
+Approve Project
+Participating Actors: Admin
+Normal Flow:
+1. User clicks Projects
+2. Applications loads page of all projects that need approving
+3. User clicks on project and approve project button
+4. Project is added to what's new section and topics
+5. Application notifies citizen who proposed
+Pre-condition: Project need approving
+Post-condition: Project approved
+________________
+
+
+Reject Project
+Participating Actors: Admin
+Normal Flow:
+1. User clicks Projects
+2. Applications loads page of all projects that need approving
+3. User clicks on project fills out 'reason' section and clicks reject project button.
+4. Application notifies citizen who proposed with reason
+Pre-condition: Project need approving
+Post-condition: Project rejected
+________________
+
+
+Run Report
+Participating Actors: Admin
+Normal Flow:
+1. User clicks generate report
+2. CSV downloads via browser
+Pre-condition: Report needs to be generated
+Post-condition: Report generated

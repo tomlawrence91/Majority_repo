@@ -1,4 +1,4 @@
-﻿User Stories V34
+﻿User Stories V4
 
 
 Constituent
@@ -76,14 +76,12 @@ Tests:
 4. Constituents will receive notifications accordingly
 5. Constituents will be able to see the 2 approved projects and project details on their newsfeed
 
-
 Story 2: As an administrator, I want to be able to assign smaller budgets to projects.
 Details: This will be a cms created for admin use only.
 Test:
 1. A constituent will create a project and choose one of three advisory cost options
 2. An admin will review the proposal, confirm or change budget details and approve
 3. A constituent will receive an email to confirm the budget has been approved
-
 
 Story 3: As an administrator, I want to be able to change the details of a project, if it’s specification has changed or it is no longer feasible.
 Details: The administrators will be able to edit projects. This will show on the projects page and users will receive an email to tell them that the details of the project have changed.
@@ -93,13 +91,11 @@ Test:
 3. An administrator will update the details of one project via a form
 4. A constituent will check to see if the deleted project is still showing and if the edited project is showing the correct details
 
-
 Story 4: As an administrator, I want to be able to see the total overall budget remaining for the year.
 Details: The administrator will be able to view the remaining total budget accompanied with an overview of the smaller projects debited
 Test:
 1. A web dashboard will be created for administrators and will display exactly how much of the overall budget has been spent and which smaller projects it has been spent on
 2. The administrator will be able to review which projects have been approved, and which have been declined
-
 
 Story 5: As an administrator, I want to be notified once a project has reached its vote approval threshold.
 Details: Administrator will receive a notification once a project has reached the vote approval threshold

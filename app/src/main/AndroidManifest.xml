@@ -32,6 +32,10 @@
             android:label="@string/title_activity_userprofile" />
         <activity android:name=".SignUp" />
         <activity android:name=".StartSignupActivity" />
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
