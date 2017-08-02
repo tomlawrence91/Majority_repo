@@ -110,3 +110,16 @@ As we have decided to divide the documentation up between us, I have decided to 
 
 Saturday 21st July
 Today I spent more time working on the web interface. I tried contacting Tom yesterday, but he currently seems unavailable. I will try again shortly.
+
+Wednesday
+
+Thursday
+
+Friday
+
+
+
+Wednesday 2nd August
+* Defined new documentation as per new sub-project
+* Setup application on firebase with server
+* Enabled username and email authentication

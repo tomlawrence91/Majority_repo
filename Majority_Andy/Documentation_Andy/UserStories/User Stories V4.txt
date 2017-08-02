@@ -34,7 +34,6 @@ Test:
 2. Admin will then provide a budget and pass each project.
 3. A constituent will then view the output on a graph.
 
-
 Story 5: As a constituent, I want to be able to see a feed of projects that I could potentially vote on in my local area that are aligned with my topic areas of interest.
 Details: The user will be able to view a dashboard, which will include filters for service sectors and recently proposed projects.
 Tests:
