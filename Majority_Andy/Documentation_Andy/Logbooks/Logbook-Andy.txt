@@ -109,17 +109,32 @@ As we have decided to divide the documentation up between us, I have decided to 
 
 
 Saturday 21st July
-Today I spent more time working on the web interface. I tried contacting Tom yesterday, but he currently seems unavailable. I will try again shortly.
 
-Wednesday
 
-Thursday
+Wednesday 26th July
+* Started working on web admin interface
+* Customised existing template
 
-Friday
 
+Thursday 27th July
+* Continued working on web admin interface
+* Due to copyright issues, started from scratch
+
+
+Friday 28th July
+* Continued working on web admin interface with completed first draft
+
+Saturday 29th July
+* Worked on android navigation
+* Started working with fragments instead of activities
 
 
 Wednesday 2nd August
-* Defined new documentation as per new sub-project
+* Started defining new documentation as per new sub-project
 * Setup application on firebase with server
 * Enabled username and email authentication
+* Meeting with Rogerio regarding new sub-project
+
+Thursday 3rd August
+* Refined documentation (terminology, workflow, user stories)
+* Successfully implemented authentication (create user, login and logout)

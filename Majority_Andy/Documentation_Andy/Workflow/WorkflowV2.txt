@@ -1,0 +1,9 @@
+﻿Workflow V2
+
+
+
+
+1. Constituent Creates Project
+2. Project is then able to be viewed by the public
+3. Once the project has been viewable from the application for two weeks, it’s voting period will have ended.
+1. On completion of the two weeks, constituents will no longer be able to vote and the project will be either be carried out or dismissed. If the vote approval threshold has been met (see terminology) the project will be approved and will be shown as approved.

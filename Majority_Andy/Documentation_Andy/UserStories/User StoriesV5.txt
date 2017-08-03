@@ -1,0 +1,67 @@
+﻿User Stories V5
+
+
+Constituent
+
+
+Story 1: As a constituent, I want to be able to propose projects of change in the local community(park renovation, more shops, disability access etc.), in relation to an available public budget. (A budget will only be drawn by admin once so many of account holding constituents have voted)
+Details: Form function which posts to a list feed of current proposed projects
+Tests:
+1. A mock project will be created and submitted by a constituent
+2. Users will then view the new project on their dashboard
+
+
+Story 2: As a constituent, I want to be able to view all of the details of a project
+Details: Click on project
+Tests:
+1. A mock project will be created by a constituent
+2. A user will click to view a project and the details will be shown
+
+
+Story 3: As a constituent, I want to be able to vote for projects that have been created, so that a decision can be made on what changes should take place.
+Details: Yes or no 
+Tests:
+1. A constituent will create a project
+2. Another constituent will vote yes
+3. Another constituent will vote no
+
+
+Story 4: As a constituent, I want to be able to see how much of the overall budget is still available for that year. In the form of a graph/pie chart etc.
+Details: Activity which provides a graphical representation of the remaining overall budget.
+Test:
+1. Two mock projects will be created.
+2. Two projects will then be simulated with public approval
+3. A constituent will then view the output on a graph.
+
+
+Story 5: As a constituent, I want to be able to see a feed of projects that I could potentially vote on.
+Details: The user will be able to view a dashboard, which will include filters for service sectors and recently proposed projects.
+Tests:
+1. Ten test projects will be created and approved
+2. Three constituent accounts will be created
+3. All constituents will view their dashboards
+
+
+
+
+Story 6: As a constituent, I want a project to be put into effect if the vote approval threshold has been reached
+Details: When the vote approval threshold has been reached, votes will be counted and either approved or unapproved based on the results.
+Tests:
+1. A constituent will propose a project
+2. All constituents will then vote on the project
+3. Once the voting period has ended, the project will be approved
+
+
+
+
+________________
+
+
+Administrator
+
+
+Story 1: As an administrator, I want to be able to see the total overall budget remaining for the year.
+Details: The administrator will be able to view the remaining total budget accompanied with an overview of the smaller projects debited
+Test:
+1. A web dashboard will be created for administrators and will display exactly how much of the overall budget has been spent and which smaller projects it has been spent on
+2. The administrator will be able to review which projects have been approved, and which have been declined

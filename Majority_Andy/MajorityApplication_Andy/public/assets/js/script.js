@@ -10,13 +10,33 @@ $(function () {
     };
     firebase.initializeApp(config);
 
-    //Login and create user
+    //Login user
     $('.login-form').on('submit', event => {
         event.preventDefault();
         const email = $('#login-email').val();
         const password = $('#login-password').val();
         console.log(email, password);
         firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+
+        });
+        firebase.auth().onAuthStateChanged(function(user) {
+              if (user) {
+                window.location.href = "home.html";
+              } else {
+
+              }
+        })
+    })
+
+    //Create user
+    $('.register-form').on('submit', event => {
+        event.preventDefault();
+        const email = $('#reg-email').val();
+        const password = $('#reg-password').val();
+        firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
           // Handle Errors here.
           var errorCode = error.code;
           var errorMessage = error.message;
@@ -26,26 +46,24 @@ $(function () {
               if (user) {
                 window.location.href = "home.html";
               } else {
-                console.log("user logged out");
+
               }
-            })
+        })
     })
-
-    //Logout user
-    $( ".logout" ).click(function(e) {
-        e.preventDefault();
-        firebase.auth().signOut().then(function() {
-          window.location.href = "index.html";
-        }).catch(function(error) {
-          // An error happened.
-        });
-    });
-
 
 })
 
-    /* Set the width of the side navigation to 250px */
-    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+//Logout user
+$( ".logout" ).click(function(e) {
+    e.preventDefault();
+    firebase.auth().signOut().then(function() {
+        alert("user out");
+      window.location.href = "index.html";
+    }).catch(function(error) {
+      // An error happened.
+    });
+});
+
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
 
@@ -72,8 +90,10 @@ $(document).ready(function () {
         height2 = $('.container-main').height();
         htmlbodyHeightUpdate();
     });
-});
 
-$('.message a').click(function(){
-   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+
+    $('.message a').click(function(){
+       $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+
 });
