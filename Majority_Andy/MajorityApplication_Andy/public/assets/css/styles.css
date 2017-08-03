@@ -243,7 +243,6 @@ nav:hover .forAnimate{
 }
 
 /*Login Page*/
-@import
 
 .login-page {
   width: 360px;
@@ -297,7 +296,7 @@ nav:hover .forAnimate{
   color: #4CAF50;
   text-decoration: none;
 }
-.form .js-form {
+.form .register-form {
   display: none;
 }
 .container {
@@ -334,12 +333,6 @@ nav:hover .forAnimate{
   color: #EF3B3A;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
-  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

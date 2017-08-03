@@ -1,4 +1,48 @@
+$(function () {
+    //Initialise firebase
+    var config = {
+      apiKey: "AIzaSyDkoCXYDkvU0abL5nrx-GnIf6jpfKBxlyE",
+      authDomain: "majorityweb.firebaseapp.com",
+      databaseURL: "https://majorityweb.firebaseio.com",
+      projectId: "majorityweb",
+      storageBucket: "majorityweb.appspot.com",
+      messagingSenderId: "1052849591343"
+    };
+    firebase.initializeApp(config);
 
+    //Login and create user
+    $('.login-form').on('submit', event => {
+        event.preventDefault();
+        const email = $('#login-email').val();
+        const password = $('#login-password').val();
+        console.log(email, password);
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // ...
+        });
+        firebase.auth().onAuthStateChanged(function(user) {
+              if (user) {
+                window.location.href = "home.html";
+              } else {
+                console.log("user logged out");
+              }
+            })
+    })
+
+    //Logout user
+    $( ".logout" ).click(function(e) {
+        e.preventDefault();
+        firebase.auth().signOut().then(function() {
+          window.location.href = "index.html";
+        }).catch(function(error) {
+          // An error happened.
+        });
+    });
+
+
+})
 
     /* Set the width of the side navigation to 250px */
     /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
