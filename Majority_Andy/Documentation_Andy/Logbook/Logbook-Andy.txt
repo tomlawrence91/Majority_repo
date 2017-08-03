@@ -140,6 +140,19 @@ Thursday 3rd August
   terminology
   workflow
   user stories
-* Successfully implemented authentication (create user, login and logout)
+* Successfully implemented authentication (features implemented: create user, user-login and user-logout)
 * Began implementing realtime database interaction
+* Began write up of problem statement
+* Began planning of literature review
+* Added testing document
 
+Friday 4th August
+
+
+Saturday 5th August
+
+Sunday 6th August
+
+Monday 7th August
+
+Tuesday 8th August
