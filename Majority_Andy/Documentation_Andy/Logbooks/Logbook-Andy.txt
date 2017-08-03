@@ -136,5 +136,10 @@ Wednesday 2nd August
 * Meeting with Rogerio regarding new sub-project
 
 Thursday 3rd August
-* Refined documentation (terminology, workflow, user stories)
+* Refined documentation:-
+  terminology
+  workflow
+  user stories
 * Successfully implemented authentication (create user, login and logout)
+* Began implementing realtime database interaction
+

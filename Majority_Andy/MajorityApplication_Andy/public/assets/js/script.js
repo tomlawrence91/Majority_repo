@@ -9,7 +9,8 @@ $(function () {
       messagingSenderId: "1052849591343"
     };
     firebase.initializeApp(config);
-
+    //database ref
+    var database = firebase.database();
     //Login user
     $('.login-form').on('submit', event => {
         event.preventDefault();
@@ -63,6 +64,8 @@ $( ".logout" ).click(function(e) {
       // An error happened.
     });
 });
+
+
 
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
