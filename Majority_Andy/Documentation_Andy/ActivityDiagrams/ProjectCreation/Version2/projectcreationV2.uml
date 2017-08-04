@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oZiPIHj1Eee2hN6Y_ejKzg" name="projectcreationV2">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_z0ZI4Hj1Eee2hN6Y_ejKzg" name="VotingPeriod" node="__KkW8Hj1Eee2hN6Y_ejKzg _uWSsAHj2Eee2hN6Y_ejKzg _15leUHj2Eee2hN6Y_ejKzg _gbKYcHj3Eee2hN6Y_ejKzg _HqEA4Hj4Eee2hN6Y_ejKzg _g9PVUHj4Eee2hN6Y_ejKzg _8yaFYHj4Eee2hN6Y_ejKzg _QmdesHj5Eee2hN6Y_ejKzg" group="_Z-pdcHj2Eee2hN6Y_ejKzg _UneH8Hj3Eee2hN6Y_ejKzg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Js20gHj3Eee2hN6Y_ejKzg" target="_15leUHj2Eee2hN6Y_ejKzg" source="_uWSsAHj2Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8gx_UHj3Eee2hN6Y_ejKzg" target="_gbKYcHj3Eee2hN6Y_ejKzg" source="_15leUHj2Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VdR5IHj4Eee2hN6Y_ejKzg" name="if [voting participation => 25%] + [vote yes > vote no]" target="_HqEA4Hj4Eee2hN6Y_ejKzg" source="_gbKYcHj3Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DFa7kHj5Eee2hN6Y_ejKzg" target="_8yaFYHj4Eee2hN6Y_ejKzg" source="_HqEA4Hj4Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0XFpcHj5Eee2hN6Y_ejKzg" name="if [voting participation &lt; 25%] | [vote yes &lt; vote no]" target="_g9PVUHj4Eee2hN6Y_ejKzg" source="_gbKYcHj3Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BT1MsHj6Eee2hN6Y_ejKzg" name="if [project = viable]" target="_QmdesHj5Eee2hN6Y_ejKzg" source="_8yaFYHj4Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LTFrIHj6Eee2hN6Y_ejKzg" name="if [project !viable]" target="_g9PVUHj4Eee2hN6Y_ejKzg" source="_8yaFYHj4Eee2hN6Y_ejKzg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eNk_MHj6Eee2hN6Y_ejKzg" target="_uWSsAHj2Eee2hN6Y_ejKzg" source="__KkW8Hj1Eee2hN6Y_ejKzg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Z-pdcHj2Eee2hN6Y_ejKzg" name="Constituent" node="__KkW8Hj1Eee2hN6Y_ejKzg _uWSsAHj2Eee2hN6Y_ejKzg _15leUHj2Eee2hN6Y_ejKzg _gbKYcHj3Eee2hN6Y_ejKzg _g9PVUHj4Eee2hN6Y_ejKzg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_UneH8Hj3Eee2hN6Y_ejKzg" name="Council Administrator" node="_HqEA4Hj4Eee2hN6Y_ejKzg _8yaFYHj4Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="__KkW8Hj1Eee2hN6Y_ejKzg" name="Constituent submits project" outgoing="_eNk_MHj6Eee2hN6Y_ejKzg" inPartition="_Z-pdcHj2Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uWSsAHj2Eee2hN6Y_ejKzg" name="Other constituents view project" incoming="_eNk_MHj6Eee2hN6Y_ejKzg" outgoing="_Js20gHj3Eee2hN6Y_ejKzg" inPartition="_Z-pdcHj2Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_15leUHj2Eee2hN6Y_ejKzg" name="Users vote on project" incoming="_Js20gHj3Eee2hN6Y_ejKzg" outgoing="_8gx_UHj3Eee2hN6Y_ejKzg" inPartition="_Z-pdcHj2Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_gbKYcHj3Eee2hN6Y_ejKzg" name="Votes on project" incoming="_8gx_UHj3Eee2hN6Y_ejKzg" outgoing="_VdR5IHj4Eee2hN6Y_ejKzg _0XFpcHj5Eee2hN6Y_ejKzg" inPartition="_Z-pdcHj2Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HqEA4Hj4Eee2hN6Y_ejKzg" name="Administrator views project on proposals" incoming="_VdR5IHj4Eee2hN6Y_ejKzg" outgoing="_DFa7kHj5Eee2hN6Y_ejKzg" inPartition="_UneH8Hj3Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_g9PVUHj4Eee2hN6Y_ejKzg" name="Project viewable as unsuccessful" incoming="_0XFpcHj5Eee2hN6Y_ejKzg _LTFrIHj6Eee2hN6Y_ejKzg" inPartition="_Z-pdcHj2Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_8yaFYHj4Eee2hN6Y_ejKzg" name="Administrator decides if project is viable" incoming="_DFa7kHj5Eee2hN6Y_ejKzg" outgoing="_BT1MsHj6Eee2hN6Y_ejKzg _LTFrIHj6Eee2hN6Y_ejKzg" inPartition="_UneH8Hj3Eee2hN6Y_ejKzg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_QmdesHj5Eee2hN6Y_ejKzg" name="Project viewable as successful" incoming="_BT1MsHj6Eee2hN6Y_ejKzg"/>
+  </packagedElement>
+</uml:Model>
