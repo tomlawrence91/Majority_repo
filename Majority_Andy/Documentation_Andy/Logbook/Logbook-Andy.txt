@@ -147,7 +147,8 @@ Thursday 3rd August
 * Added testing document
 
 Friday 4th August
-
+* Uploaded correct version on activity diagrams
+*
 
 Saturday 5th August
 
