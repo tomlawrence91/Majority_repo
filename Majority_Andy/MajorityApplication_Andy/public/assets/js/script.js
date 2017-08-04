@@ -42,13 +42,22 @@ $(function () {
         event.preventDefault();
         const email = $('#reg-email').val();
         const password = $('#reg-password').val();
+        const userName = $('#reg-name').val();
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
             var errorCode = error.code;
             var errorMessage = error.message;
         });
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
-            window.location.href = "home.html";
+                const dbRef = firebase.database().ref();
+                var storesRef = dbRef.child('/users/');
+                var newStoreRef = storesRef.push();
+                newStoreRef.set({
+                    "emailAddress": email,
+                    "name": userName,
+                    "userId": "temp",
+                });
+            //window.location.href = "home.html";
             } else {
             }
         })
@@ -79,6 +88,8 @@ $(function () {
         const budgetEstimate = $('#budget-estimate').val();
         const dateAdded = Date.now();
         const image = "image";
+        const votesYes = 0;
+        const votesNo = 0;
         const dbRef = firebase.database().ref();
         var storesRef = dbRef.child('/project/');
         var newStoreRef = storesRef.push();
@@ -89,10 +100,19 @@ $(function () {
             "budgetEstimate": budgetEstimate,
             "dateAdded": dateAdded,
             "image": image,
+            "votesYes": votesYes,
+            "votesNo": votesNo,
         });
         console.log(projectName, projectSummary, projectDetail, budgetEstimate, dateAdded );
     })
 
+
+//View All Projects
+
+    //return firebase.database().ref('/project/' + userId).once('value').then(function(snapshot) {
+    //var username = snapshot.val().username;
+    // ...
+    //});
 });
 
 //---------------------------
