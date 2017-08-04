@@ -147,8 +147,9 @@ Thursday 3rd August
 * Added testing document
 
 Friday 4th August
-* Uploaded correct version on activity diagrams
-*
+* Uploaded correct version of create project activity diagrams
+* Uploaded create project activity diagrams V2
+* Successfully implemented project upload(except for image upload)
 
 Saturday 5th August
 

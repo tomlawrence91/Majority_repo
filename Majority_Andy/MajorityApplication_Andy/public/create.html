@@ -14,8 +14,7 @@
     <link href="assets/css/styles.css" rel="stylesheet"/>
 	<link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-
-
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-m2p sidebar" role="navigation">
@@ -86,14 +85,14 @@
 									<div class="col-md-5">
 										<div class="form-group">
 											<label>Project Name</label>
-											<input type="text" class="form-control" placeholder="Project Name">
+											<input type="text" class="form-control" id="project-name" placeholder="Project Name">
 										</div>
 									</div>
 									<div class="col-md-1"></div>
 									<div class="col-md-5">
 										<div class="form-group">
 											<label>Upload Image</label>
-											<input type="file" name="pic" accept="image/*" class="form-control">
+											<input type="file" name="pic" id="project-image" accept="image/*" class="form-control">
 										</div>
 									</div>
 								</div>
@@ -101,7 +100,7 @@
 									<div class="col-md-9">
 										<div class="form-group">
 											<label>Project Summary</label>
-											<textarea rows="3" class="form-control" placeholder="Here you can write a brief summary about your project.." value="Mike"></textarea>
+											<textarea rows="3" class="form-control" id="project-summary" placeholder="Here you can write a brief summary about your project.." value="Mike"></textarea>
 										</div>
 									</div>
 								</div>
@@ -109,7 +108,7 @@
 									<div class="col-md-12">
 										<div class="form-group">
 											<label>Project Description</label>
-											<textarea rows="5" class="form-control" placeholder="Here you can write a full description about your project.." value="Mike"></textarea>
+											<textarea rows="5" class="form-control" id="project-detail" placeholder="Here you can write a full description about your project.." value="Mike"></textarea>
 										</div>
 									</div>
 								</div>
@@ -117,13 +116,14 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Budget Esitimate</label>
-											<input type="number" class="form-control" placeholder="e.g. £5,000" value="">
+											<input type="number" class="form-control" id="budget-estimate" placeholder="e.g. £5,000" value="">
 										</div>
 									</div>
 								</div>
-								<button type="submit" class="btn btn-info btn-fill">Submit</button>
+								<button type="submit" id="submit-project" class="btn btn-info btn-fill">Submit</button>
 								<div class="clearfix"></div>
 							</form>
+							<pre id="object"></pre>
 						</div>
 				</div>
 			</div>
