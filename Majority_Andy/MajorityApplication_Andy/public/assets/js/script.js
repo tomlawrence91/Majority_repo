@@ -47,16 +47,16 @@ $(function () {
             var errorCode = error.code;
             var errorMessage = error.message;
         });
+        const dbRef = firebase.database().ref();
+        var storesRef = dbRef.child('/users/');
+        var newStoreRef = storesRef.push();
+        newStoreRef.set({
+            "emailAddress": email,
+            "name": userName,
+            "userId": "temp",
+        });
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
-                const dbRef = firebase.database().ref();
-                var storesRef = dbRef.child('/users/');
-                var newStoreRef = storesRef.push();
-                newStoreRef.set({
-                    "emailAddress": email,
-                    "name": userName,
-                    "userId": "temp",
-                });
             //window.location.href = "home.html";
             } else {
             }

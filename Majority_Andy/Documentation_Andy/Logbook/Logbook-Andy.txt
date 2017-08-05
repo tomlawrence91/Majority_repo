@@ -150,8 +150,12 @@ Friday 4th August
 * Uploaded correct version of create project activity diagrams
 * Uploaded create project activity diagrams V2
 * Successfully implemented project upload(except for image upload)
+* Users are now created within database when creating account
 
 Saturday 5th August
+* Began working on Literature Review
+* Added issue tracking document
+
 
 Sunday 6th August
 
