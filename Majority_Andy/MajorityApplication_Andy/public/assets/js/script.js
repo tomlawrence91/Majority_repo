@@ -119,9 +119,15 @@ $(function () {
             snapshot.forEach(function(childSnapshot) {
               // key will be "ada" the first time and "alan" the second time
               var key = childSnapshot.key;
+              var projectName = snapshot.child(key + "/projectName").val();
+              var budgetEstimate = snapshot.child(key + "/budgetEstimate").val();
+              var projectDetail = snapshot.child(key + "/projectDetail").val();
+              var projectSummary = snapshot.child(key + "/projectSummary").val();
+              var image = snapshot.child(key + "/image").val();
+              //var attr = snapshot.child(key).val(); // {first:"Ada",last:"Lovelace"}
               // childData will be the actual contents of the child
-              var childData = childSnapshot.val();
-              console.log(key, childData);
+
+              console.log(key, projectName, budgetEstimate, projectDetail, projectSummary);
           });
       });
   }
