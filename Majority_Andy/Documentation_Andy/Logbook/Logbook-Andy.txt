@@ -160,6 +160,7 @@ Saturday 5th August
 Sunday 6th August
 * Continued working on literature Review
 * Began working on structure of dissertation
+* Now able to pull project data objects from database to view.
 
 Monday 7th August
 

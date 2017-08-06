@@ -114,20 +114,19 @@ $(function () {
 //View All Projects
     if (window.location.href.match('projects.html') != null) {
         var query = firebase.database().ref("/project/").orderByKey();
-        query.once("value")
-          .then(function(snapshot) {
+        query.once("value").then(function(snapshot) {
             snapshot.forEach(function(childSnapshot) {
-              // key will be "ada" the first time and "alan" the second time
-              var key = childSnapshot.key;
-              var projectName = snapshot.child(key + "/projectName").val();
-              var budgetEstimate = snapshot.child(key + "/budgetEstimate").val();
-              var projectDetail = snapshot.child(key + "/projectDetail").val();
-              var projectSummary = snapshot.child(key + "/projectSummary").val();
-              var image = snapshot.child(key + "/image").val();
-              //var attr = snapshot.child(key).val(); // {first:"Ada",last:"Lovelace"}
-              // childData will be the actual contents of the child
-
-              console.log(key, projectName, budgetEstimate, projectDetail, projectSummary);
+                var key = childSnapshot.key; //Assigns project object
+                var projectName = snapshot.child(key + "/projectName").val();
+                var budgetEstimate = snapshot.child(key + "/budgetEstimate").val();
+                var projectDetail = snapshot.child(key + "/projectDetail").val();
+                var projectSummary = snapshot.child(key + "/projectSummary").val();
+                var image = snapshot.child(key + "/image").val();
+                var lineCounter = 0;
+                if(lineCounter % 4 == 0) {
+                    
+                }
+                console.log(key, projectName, budgetEstimate, projectDetail, projectSummary);
           });
       });
   }
