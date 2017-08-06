@@ -48,6 +48,7 @@ $(function () {
             var errorCode = error.code;
             var errorMessage = error.message;
         });
+
         //Creates user in realtime database
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
@@ -101,10 +102,10 @@ $(function () {
             "projectDetail": projectDetail,
             "budgetEstimate": budgetEstimate,
             "dateAdded": dateAdded,
-            "image": temp,
+            "image": "temp",
             "votesYes": votesYes,
             "votesNo": votesNo,
-            "projectProposer": temp,
+            "projectProposer": "temp",
         });
         console.log(projectName, projectSummary, projectDetail, budgetEstimate, dateAdded );
     })
@@ -112,23 +113,18 @@ $(function () {
 
 //View All Projects
     if (window.location.href.match('projects.html') != null) {
-        var ref = database.ref("project");
-        ref.on("value", gotData, errData);
-
-        function gotData(data) {
-            var project = data.val();
-            // Grab the keys to iterate over the object
-            var keys = Object.keys(project);
-
-            for (var i = 0; i < keys.length; i++) {
-                var key = keys[i];
-                // Look at each fruit object!
-                var fruit = project[key];
-            }
-        }
-            console.log("pooh");
-
-    }
+        var query = firebase.database().ref("/project/").orderByKey();
+        query.once("value")
+          .then(function(snapshot) {
+            snapshot.forEach(function(childSnapshot) {
+              // key will be "ada" the first time and "alan" the second time
+              var key = childSnapshot.key;
+              // childData will be the actual contents of the child
+              var childData = childSnapshot.val();
+              console.log(key, childData);
+          });
+      });
+  }
 });
 
 //---------------------------
