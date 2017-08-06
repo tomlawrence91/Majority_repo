@@ -43,21 +43,23 @@ $(function () {
         const email = $('#reg-email').val();
         const password = $('#reg-password').val();
         const userName = $('#reg-name').val();
+        //creates user in firebase authentication
         firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
             var errorCode = error.code;
             var errorMessage = error.message;
         });
-        const dbRef = firebase.database().ref();
-        var storesRef = dbRef.child('/users/');
-        var newStoreRef = storesRef.push();
-        newStoreRef.set({
-            "emailAddress": email,
-            "name": userName,
-            "userId": "temp",
-        });
+        //Creates user in realtime database
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
-            //window.location.href = "home.html";
+                const dbRef = firebase.database().ref();
+                var storesRef = dbRef.child('/users/');
+                var newStoreRef = storesRef.push();
+                newStoreRef.set({
+                    "emailAddress": email,
+                    "name": userName,
+                    "userId": "temp",
+                });
+                window.location.href = "home.html";
             } else {
             }
         })
@@ -99,20 +101,34 @@ $(function () {
             "projectDetail": projectDetail,
             "budgetEstimate": budgetEstimate,
             "dateAdded": dateAdded,
-            "image": image,
+            "image": temp,
             "votesYes": votesYes,
             "votesNo": votesNo,
+            "projectProposer": temp,
         });
         console.log(projectName, projectSummary, projectDetail, budgetEstimate, dateAdded );
     })
 
 
 //View All Projects
+    if (window.location.href.match('projects.html') != null) {
+        var ref = database.ref("project");
+        ref.on("value", gotData, errData);
 
-    //return firebase.database().ref('/project/' + userId).once('value').then(function(snapshot) {
-    //var username = snapshot.val().username;
-    // ...
-    //});
+        function gotData(data) {
+            var project = data.val();
+            // Grab the keys to iterate over the object
+            var keys = Object.keys(project);
+
+            for (var i = 0; i < keys.length; i++) {
+                var key = keys[i];
+                // Look at each fruit object!
+                var fruit = project[key];
+            }
+        }
+            console.log("pooh");
+
+    }
 });
 
 //---------------------------

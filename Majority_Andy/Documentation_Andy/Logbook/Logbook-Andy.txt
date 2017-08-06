@@ -155,9 +155,11 @@ Friday 4th August
 Saturday 5th August
 * Began working on Literature Review
 * Added issue tracking document
-
+* Bug fixes for creating user to loading home screen
 
 Sunday 6th August
+* Continued working on literature Review
+* Began working on structure of dissertation
 
 Monday 7th August
 
