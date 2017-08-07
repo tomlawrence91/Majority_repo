@@ -160,8 +160,10 @@ Saturday 5th August
 Sunday 6th August
 * Continued working on literature Review
 * Began working on structure of dissertation
-* Now able to pull project data objects from database to view.
+* Worked on reading data from database- now able to pull project data objects from database to view in console.
 
 Monday 7th August
+* Continued working on Literature Review
+* Continued working on dissertation structure
 
 Tuesday 8th August
