@@ -158,12 +158,15 @@ Saturday 5th August
 * Bug fixes for creating user to loading home screen
 
 Sunday 6th August
-* Continued working on literature Review
+* Continued working on literature Review.
 * Began working on structure of dissertation
 * Worked on reading data from database- now able to pull project data objects from database to view in console.
 
 Monday 7th August
-* Continued working on Literature Review
+* Continued working on Literature Review.
 * Continued working on dissertation structure
 
 Tuesday 8th August
+* Continued working on Problem Statement
+* Continued working on Literature Review
+* Continued working on dissertation structure
