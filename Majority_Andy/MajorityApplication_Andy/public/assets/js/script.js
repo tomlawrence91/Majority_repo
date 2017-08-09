@@ -124,7 +124,7 @@ $(function () {
                 var image = snapshot.child(key + "/image").val();
                 var lineCounter = 0;
                 if(lineCounter % 4 == 0) {
-                    
+
                 }
                 console.log(key, projectName, budgetEstimate, projectDetail, projectSummary);
           });
@@ -134,6 +134,7 @@ $(function () {
 
 //---------------------------
 // Controller scripts
+// Author needed:-
 //---------------------------
 function htmlbodyHeightUpdate() {
     var height3 = $(window).height();

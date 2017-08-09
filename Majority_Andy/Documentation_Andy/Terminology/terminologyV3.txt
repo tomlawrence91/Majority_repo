@@ -1,5 +1,5 @@
 ﻿Terminology V2
-Steakholders:-
+Stakeholders:-
 Constituent - A member of the local public who has the power to both create and vote on projects (A Council Administrator and Councillor can be a constituent).
 Council Administrator - A member of Bracknell Council responsible for approving projects and creating budgets and timelines.
 Councillor - One of many directors of a council with the authority to sign-off initial, overall budgets.
