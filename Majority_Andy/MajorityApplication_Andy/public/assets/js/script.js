@@ -130,6 +130,19 @@ $(function () {
           });
       });
   }
+
+
+//View Budget
+  if (window.location.href.match('budget.html') != null) {
+      var query = firebase.database().ref("/budgets/").orderByKey();
+      query.once("value").then(function(snapshot) {
+          snapshot.forEach(function(childSnapshot) {
+              var key = childSnapshot.key; //Assigns budget object
+              var overall_budget = snapshot.child(key + "/overallBudget").val();
+              console.log("£" + overall_budget);
+        });
+    });
+}
 });
 
 //---------------------------

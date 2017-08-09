@@ -176,3 +176,4 @@ Wednesday 9th August
 * Completed literary review
 * Completed dissertation structure
 * Meeting with Rogerio DL
+* Added function to pull budget data from DB into budget section
